@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    color: #6A6A6B;
+}
+
+#ul_nav,
+#ul_product
+{
+    list-style: none;
+    margin: 30px;
+    height: 28px;
+    /*display: block;*/
+}
+
+#ul_nav li,
+#ul_product li {
+    float: left;
+    width: 100px;
+    font-family: Courier New;
+    font-size: 18px;
+    text-align: center;
+}
+
+.clear {
+    clear: both;
+}
+
+.sub_wrapper {
+    width: 1000px;
+    margin: auto;
+}
+
+.search {
+    background: url("../image/icoSearch.svg") no-repeat;
+    border: 0;
+    margin: 2px;
+    padding: 2px;
+    width: 22px;
+    height: 26px;
+}
+
+.float_left {
+    float: left;
+}
+
+#header {
+    width: 100%;
+    height: 658px;
+}
+
+#header,
+#footer {
+    background: url("../image/bg_main_decor.jpg");
+}
+
+#nav,
+#nav_left,
+#nav_center,
+#nav_right
+{
+    height: 85px;
+}
+
+#nav_left {
+    width: 200px;
+    background: url("../image/logoJB.svg") no-repeat;
+}
+
+#nav_center {
+}
+
+#nav_right {
+    margin: 30px;
+}
+
+
+#banner {
+    background: url("../image/banner_jetbrains_index.png") no-repeat;
+    height: 573px;
+}
+
+#product {
+    height: 500px;
+    background: #Fff;
+}
+
+#product_1,
+#product_2
+{
+    width: 354px;
+    height: 407px;
+}
+
+#product_2 {
+    margin-left: 19px;
+}
+
+#product_3 {
+    background: url("../image/index_product_banner_yt.png");
+    margin-left: -29px;
+    border: 2px dashed;
+    border-radius: 20px;
+    padding: 32px 19px 28px;
+    width: 198px;
+    height: 279px;
+}
+
+#ul_product {
+    margin-left: 500px;
+}
+
+#ul_product li {
+    width: 150px;
+
+}
+
+#news {
+    height: 190px;
+    background: #F2F1F2;
+}
+
+#category {
+    height: 572px;
+    padding: 21px 0 49px;
+    background: url("../image/bg_main_lab.jpg");
+}
+
+#achievement {
+    height: 589px;
+    padding: 21px 0 14px;
+    background: url("../image/bg_main_customers.jpg");
+}
+
+#footer {
+    height: 344px;
+    padding: 74px 0 28px;
+}
+
+#header,
+#product,
+#news,
+#category,
+#achievement {
+    border-bottom: #BDBBBC 2px solid;
+}
